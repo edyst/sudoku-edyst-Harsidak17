@@ -23,13 +23,13 @@ td{
 .sudokuBox{
     width: fit-content;
     height: fit-content;
-    margin: 12px auto;
+    margin: 10px auto;
     border: 2px solid #344861;
 }
 button{
-    padding: 6px 13px;
-    width: 77px;
-    height: 27px;
+    padding: 5px 12px;
+    width: 75px;
+    height: 28px;
 }
 .col3,.col6{
     border-right: 2px solid #344861;
@@ -42,19 +42,19 @@ input{
     height: 60px;
     width: 60px;
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     border: none;
     outline: none;
     background-color: transparent;
 }
 input:disabled{
-    background-color: rgb(221, 221, 221);
-    color: #6b6969;
+    background-color: rgb(212, 212, 212);
+    color: #474747;
 }
 .incorrect{
-    border: 1px solid rgba(212, 3, 3, 0.6) !important;
-    background-color: rgba(243, 30, 30, 0.4) !important;
+    border: 1px solid rgba(226, 4, 4, 0.7) !important;
+    background-color: rgba(216, 6, 6, 0.5) !important;
 }
 .select{
-    background-color: rgb(142, 202, 223) !important;
+    background-color: rgb(144, 207, 228) !important;
 }
